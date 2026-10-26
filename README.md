@@ -13,7 +13,7 @@
 <p align="center">
   <a href="https://www.upwork.com/freelancers/~019622575b1d53884b"><img src="https://img.shields.io/badge/Hire%20me%20on%20Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white" alt="Hire me on Upwork"/></a>
   &nbsp;
-  <a href="https://github.com/Tadrous-William?tab=repositories"><img src="https://img.shields.io/badge/All%20projects-0B1220?style=for-the-badge&logo=github&logoColor=white" alt="All projects"/></a>
+  <a href="https://github.com/Tadrous-William?tab=repositories"><img src="https://img.shields.io/badge/All%20projects-292524?style=for-the-badge&logo=github&logoColor=white" alt="All projects"/></a>
 </p>
 
 <br/>
@@ -43,14 +43,14 @@ CS student at Assiut University &nbsp;·&nbsp; Led my team to **3rd place nation
       <h3><a href="https://github.com/Tadrous-William/rag-pdf-chat">Chat with your PDFs</a></h3>
       RAG chatbot that answers only from your files and shows the page. Runs 100% locally.<br/><br/>
       <b>Result:</b> 30 / 30 test questions right<br/><br/>
-      <img src="https://img.shields.io/badge/RAG-0B1220?style=flat-square"/> <img src="https://img.shields.io/badge/Ollama-0B1220?style=flat-square"/> <img src="https://img.shields.io/badge/Streamlit-0B1220?style=flat-square"/>
+      <img src="https://img.shields.io/badge/RAG-FFEAD8?style=flat-square"/> <img src="https://img.shields.io/badge/Ollama-FFEAD8?style=flat-square"/> <img src="https://img.shields.io/badge/Streamlit-FFEAD8?style=flat-square"/>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Tadrous-William/ai-invoice-extraction"><img src="https://raw.githubusercontent.com/Tadrous-William/ai-invoice-extraction/main/portfolio/before_after_invoice_021_scan.jpg" alt="AI invoice extraction"/></a>
       <h3><a href="https://github.com/Tadrous-William/ai-invoice-extraction">AI Invoice Extraction</a></h3>
       Invoices and receipts (PDFs, scans, photos) into checked Excel data with a local LLM and OCR.<br/><br/>
       <b>Result:</b> tested on 206 documents<br/><br/>
-      <img src="https://img.shields.io/badge/LLM-0B1220?style=flat-square"/> <img src="https://img.shields.io/badge/OCR-0B1220?style=flat-square"/> <img src="https://img.shields.io/badge/n8n-0B1220?style=flat-square"/>
+      <img src="https://img.shields.io/badge/LLM-FFEAD8?style=flat-square"/> <img src="https://img.shields.io/badge/OCR-FFEAD8?style=flat-square"/> <img src="https://img.shields.io/badge/n8n-FFEAD8?style=flat-square"/>
     </td>
   </tr>
   <tr>
@@ -59,14 +59,14 @@ CS student at Assiut University &nbsp;·&nbsp; Led my team to **3rd place nation
       <h3><a href="https://github.com/Tadrous-William/nyc-real-estate-dashboard">NYC Real Estate Dashboard</a></h3>
       Investor dashboard with market trends, a home price estimator and rental yields.<br/><br/>
       <b>Result:</b> built on 367,189 real property sales<br/><br/>
-      <img src="https://img.shields.io/badge/Streamlit-0B1220?style=flat-square"/> <img src="https://img.shields.io/badge/Machine%20Learning-0B1220?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Streamlit-FFEAD8?style=flat-square"/> <img src="https://img.shields.io/badge/Machine%20Learning-FFEAD8?style=flat-square"/>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Tadrous-William/powerbi-sales-dashboard"><img src="https://raw.githubusercontent.com/Tadrous-William/powerbi-sales-dashboard/main/portfolio/screens/01_sales_overview.png" alt="Power BI sales dashboard"/></a>
       <h3><a href="https://github.com/Tadrous-William/powerbi-sales-dashboard">Power BI Sales Dashboard</a></h3>
       SQL cleaning, a 4-page Power BI report and an insights deck with 5 recommendations.<br/><br/>
       <b>Result:</b> 1.07M order lines analysed<br/><br/>
-      <img src="https://img.shields.io/badge/Power%20BI-0B1220?style=flat-square"/> <img src="https://img.shields.io/badge/SQL-0B1220?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Power%20BI-FFEAD8?style=flat-square"/> <img src="https://img.shields.io/badge/SQL-FFEAD8?style=flat-square"/>
     </td>
   </tr>
   <tr>
@@ -75,14 +75,14 @@ CS student at Assiut University &nbsp;·&nbsp; Led my team to **3rd place nation
       <h3><a href="https://github.com/Tadrous-William/sales-forecasting">Sales Forecasting & Stock Plan</a></h3>
       Weekly demand forecast with a low–high range and a stock plan for 200 products.<br/><br/>
       <b>Result:</b> backtested on 7 dates against 5 simple methods<br/><br/>
-      <img src="https://img.shields.io/badge/LightGBM-0B1220?style=flat-square"/> <img src="https://img.shields.io/badge/Time%20Series-0B1220?style=flat-square"/>
+      <img src="https://img.shields.io/badge/LightGBM-FFEAD8?style=flat-square"/> <img src="https://img.shields.io/badge/Time%20Series-FFEAD8?style=flat-square"/>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Tadrous-William/business-lead-list"><img src="https://raw.githubusercontent.com/Tadrous-William/business-lead-list/main/portfolio/coverage.png" alt="B2B lead list"/></a>
       <h3><a href="https://github.com/Tadrous-William/business-lead-list">B2B Lead List Builder</a></h3>
       Scored lead list built only from public sources, with phone, contact, website and email checks.<br/><br/>
       <b>Result:</b> 9,485 Texas dental practices<br/><br/>
-      <img src="https://img.shields.io/badge/Web%20Scraping-0B1220?style=flat-square"/> <img src="https://img.shields.io/badge/Data%20Enrichment-0B1220?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Web%20Scraping-FFEAD8?style=flat-square"/> <img src="https://img.shields.io/badge/Data%20Enrichment-FFEAD8?style=flat-square"/>
     </td>
   </tr>
 </table>
@@ -119,7 +119,7 @@ CS student at Assiut University &nbsp;·&nbsp; Led my team to **3rd place nation
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
   <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white"/>
   <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/XGBoost-1A2B3C?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/XGBoost-EA580C?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
   <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=duckdb&logoColor=white"/>
   <img src="https://img.shields.io/badge/BeautifulSoup-3776AB?style=for-the-badge"/>
