@@ -1,77 +1,120 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Tadrous William, AI Engineer and Data Scientist">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0B1220"/>
-      <stop offset="1" stop-color="#14223B"/>
-    </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#E4DACB"/>
     </pattern>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#FF8A1F" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#FF8A1F" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="card"><rect width="1200" height="340" rx="18"/></clipPath>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="38"/></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#7C5A3A" flood-opacity=".14"/>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="340" rx="20"/></clipPath>
     <style>
       .f { font-family: 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif; }
-      .m { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
-      .up { opacity: 0; animation: up .9s ease-out forwards; }
-      .d1 { animation-delay: .1s } .d2 { animation-delay: .35s } .d3 { animation-delay: .6s } .d4 { animation-delay: .85s }
-      @keyframes up { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
-      .orb { animation: drift 9s ease-in-out infinite alternate; }
-      .orb2 { animation: drift2 11s ease-in-out infinite alternate; }
-      @keyframes drift { from { transform: translate(0,0) } to { transform: translate(-60px,30px) } }
-      @keyframes drift2 { from { transform: translate(0,0) } to { transform: translate(50px,-25px) } }
-      .node { fill: #FF8A1F; animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
-      .n2 { animation-delay: .4s } .n3 { animation-delay: .8s } .n4 { animation-delay: 1.2s } .n5 { animation-delay: 1.6s } .n6 { animation-delay: 2s }
-      @keyframes pulse { 0%,100% { opacity: .35; transform: scale(.85) } 50% { opacity: 1; transform: scale(1.15) } }
-      .edge { stroke: #FF8A1F; stroke-opacity: .22; stroke-width: 1.4; }
-      .flow { stroke: #FF8A1F; stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 8 300; animation: flow 3s linear infinite; }
-      .fl2 { animation-delay: 1s } .fl3 { animation-delay: 2s }
-      @keyframes flow { from { stroke-dashoffset: 0 } to { stroke-dashoffset: -308 } }
-      .cur { animation: blink 1s steps(1) infinite; }
-      @keyframes blink { 50% { opacity: 0 } }
+      .m { font-family: 'Cascadia Code', Consolas, Menlo, monospace; }
+
+      .up { opacity: 0; animation: up .8s ease-out forwards; }
+      .d1 { animation-delay: .1s } .d2 { animation-delay: .3s } .d3 { animation-delay: .5s }
+      .d4 { animation-delay: .7s } .d5 { animation-delay: .9s } .d6 { animation-delay: 1.05s } .d7 { animation-delay: 1.2s } .d8 { animation-delay: 1.35s }
+      @keyframes up { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: none } }
+
+      .b1 { animation: f1 10s ease-in-out infinite alternate; }
+      .b2 { animation: f2 12s ease-in-out infinite alternate; }
+      .b3 { animation: f3 9s ease-in-out infinite alternate; }
+      @keyframes f1 { to { transform: translate(-70px, 40px) } }
+      @keyframes f2 { to { transform: translate(60px, -30px) } }
+      @keyframes f3 { to { transform: translate(-40px, -45px) } }
+
+      .ul { stroke-dasharray: 400; stroke-dashoffset: 400; animation: draw 1.2s 1s ease-out forwards; }
+      @keyframes draw { to { stroke-dashoffset: 0 } }
+
+      .live { animation: live 1.6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes live { 50% { transform: scale(1.6); opacity: .35 } }
+
+      /* chat loop: 9 s */
+      .q   { opacity: 0; animation: q 9s infinite; }
+      .typ { opacity: 0; animation: typ 9s infinite; }
+      .a   { opacity: 0; animation: a 9s infinite; }
+      .ok  { opacity: 0; animation: ok 9s infinite; }
+      @keyframes q   { 0%,4% { opacity: 0; transform: translateY(8px) } 9%,90% { opacity: 1; transform: none } 96%,100% { opacity: 0 } }
+      @keyframes typ { 0%,16% { opacity: 0 } 19%,37% { opacity: 1 } 40%,100% { opacity: 0 } }
+      @keyframes a   { 0%,40% { opacity: 0; transform: translateY(8px) } 45%,90% { opacity: 1; transform: none } 96%,100% { opacity: 0 } }
+      @keyframes ok  { 0%,55% { opacity: 0 } 60%,90% { opacity: 1 } 96%,100% { opacity: 0 } }
+      .dt { animation: bounce 1s ease-in-out infinite; }
+      .dt2 { animation-delay: .15s } .dt3 { animation-delay: .3s }
+      @keyframes bounce { 0%,60%,100% { transform: none } 30% { transform: translateY(-5px) } }
+
+      .win { animation: hover 6s ease-in-out infinite; }
+      @keyframes hover { 50% { transform: translateY(-6px) } }
     </style>
   </defs>
 
   <g clip-path="url(#card)">
-    <rect width="1200" height="340" fill="url(#bg)"/>
-    <rect width="1200" height="340" fill="url(#grid)"/>
-    <circle class="orb" cx="980" cy="70" r="260" fill="url(#glow)"/>
-    <circle class="orb2" cx="140" cy="330" r="220" fill="url(#glow2)"/>
-
-    <!-- neural network motif -->
-    <g transform="translate(840 70)">
-      <line class="edge" x1="0" y1="20" x2="130" y2="0"/><line class="edge" x1="0" y1="20" x2="130" y2="100"/>
-      <line class="edge" x1="0" y1="110" x2="130" y2="0"/><line class="edge" x1="0" y1="110" x2="130" y2="100"/>
-      <line class="edge" x1="0" y1="110" x2="130" y2="200"/><line class="edge" x1="0" y1="200" x2="130" y2="100"/>
-      <line class="edge" x1="0" y1="200" x2="130" y2="200"/>
-      <line class="edge" x1="130" y1="0" x2="260" y2="60"/><line class="edge" x1="130" y1="100" x2="260" y2="60"/>
-      <line class="edge" x1="130" y1="100" x2="260" y2="150"/><line class="edge" x1="130" y1="200" x2="260" y2="150"/>
-      <line class="flow" x1="0" y1="20" x2="130" y2="100"/>
-      <line class="flow fl2" x1="0" y1="200" x2="130" y2="100"/>
-      <line class="flow fl3" x1="130" y1="100" x2="260" y2="60"/>
-      <circle class="node" cx="0" cy="20" r="7"/><circle class="node n2" cx="0" cy="110" r="7"/><circle class="node n3" cx="0" cy="200" r="7"/>
-      <circle class="node n4" cx="130" cy="0" r="8"/><circle class="node n5" cx="130" cy="100" r="9"/><circle class="node n6" cx="130" cy="200" r="8"/>
-      <circle class="node n2" cx="260" cy="60" r="10"/><circle class="node n4" cx="260" cy="150" r="10"/>
-    </g>
-
-    <g transform="translate(64 0)">
-      <g class="up d1">
-        <rect x="0" y="62" width="282" height="32" rx="16" fill="#FF8A1F" fill-opacity=".12" stroke="#FF8A1F" stroke-opacity=".45"/>
-        <circle cx="18" cy="77" r="4" fill="#22C55E"/>
-        <text class="m" x="32" y="83" font-size="14" fill="#FFB36B" letter-spacing="1.2">OPEN TO FREELANCE WORK</text>
-      </g>
-      <text class="f up d2" x="0" y="158" font-size="58" font-weight="700" fill="#FFFFFF">Tadrous William</text>
-      <text class="f up d3" x="0" y="200" font-size="24" font-weight="600" fill="#FF8A1F">AI Engineer &amp; Data Scientist<tspan class="cur">_</tspan></text>
-      <text class="f up d4" x="0" y="240" font-size="19" fill="#A9B4C7">I build AI chatbots, machine learning models and data pipelines,</text>
-      <text class="f up d4" x="0" y="268" font-size="19" fill="#A9B4C7">and I test them before you get them.</text>
-      <text class="m up d4" x="0" y="306" font-size="15" fill="#7C8BA5" letter-spacing="1">RAG CHATBOTS  ·  MACHINE LEARNING  ·  DASHBOARDS  ·  DATA EXTRACTION</text>
+    <rect width="1200" height="340" fill="#FBF8F3"/>
+    <rect width="1200" height="340" fill="url(#dots)" opacity=".8"/>
+    <g filter="url(#blur)">
+      <circle class="b1" cx="900" cy="80" r="150" fill="#FFD9B8"/>
+      <circle class="b2" cx="1080" cy="290" r="130" fill="#CFEFE2"/>
+      <circle class="b3" cx="560" cy="330" r="120" fill="#E3E0FB"/>
     </g>
   </g>
-  <rect x=".5" y=".5" width="1199" height="339" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+  <rect x=".5" y=".5" width="1199" height="339" rx="20" fill="none" stroke="#EADFCF"/>
+
+  <!-- left: intro -->
+  <g transform="translate(64 0)">
+    <g class="up d1">
+      <rect x="0" y="58" width="246" height="32" rx="16" fill="#FFFFFF" stroke="#EADFCF"/>
+      <circle class="live" cx="20" cy="74" r="4.5" fill="#22C55E"/>
+      <circle cx="20" cy="74" r="4.5" fill="#22C55E"/>
+      <text class="f" x="34" y="79" font-size="14" font-weight="600" fill="#57534E">Available for freelance work</text>
+    </g>
+    <text class="f up d2" x="0" y="152" font-size="56" font-weight="800" fill="#1C1917" letter-spacing="-1">Tadrous William</text>
+    <text class="f up d3" x="0" y="196" font-size="25" font-weight="600" fill="#C2410C">AI Engineer &amp; Data Scientist</text>
+    <path class="ul" d="M2 210 C 90 202, 210 216, 352 205" fill="none" stroke="#F97316" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+    <text class="f up d4" x="0" y="246" font-size="18" fill="#57534E">I build AI chatbots, machine learning models and data</text>
+    <text class="f up d4" x="0" y="270" font-size="18" fill="#57534E">pipelines, and I test them before you get them.</text>
+
+    <g class="f" font-size="13.5" font-weight="600">
+      <g class="up d5"><rect x="0" y="290" width="118" height="30" rx="15" fill="#FFF1E6" stroke="#FBD3B0"/><text x="59" y="310" text-anchor="middle" fill="#C2410C">RAG chatbots</text></g>
+      <g class="up d6"><rect x="128" y="290" width="148" height="30" rx="15" fill="#E9F8F1" stroke="#BFE6D5"/><text x="202" y="310" text-anchor="middle" fill="#0F766E">Machine learning</text></g>
+      <g class="up d7"><rect x="286" y="290" width="112" height="30" rx="15" fill="#EEF0FD" stroke="#D3D7F7"/><text x="342" y="310" text-anchor="middle" fill="#4338CA">Dashboards</text></g>
+      <g class="up d8"><rect x="408" y="290" width="138" height="30" rx="15" fill="#E8F4FD" stroke="#C3E0F5"/><text x="477" y="310" text-anchor="middle" fill="#0369A1">Data extraction</text></g>
+    </g>
+  </g>
+
+  <!-- right: chatbot window -->
+  <g class="up d4">
+    <g class="win">
+      <rect x="742" y="44" width="400" height="252" rx="16" fill="#FFFFFF" stroke="#EADFCF" filter="url(#shadow)"/>
+      <rect x="742" y="44" width="400" height="38" rx="16" fill="#FAF6F0"/>
+      <rect x="742" y="66" width="400" height="16" fill="#FAF6F0"/>
+      <line x1="742" y1="82" x2="1142" y2="82" stroke="#EFE7DB"/>
+      <circle cx="764" cy="63" r="5" fill="#F8B4A0"/><circle cx="781" cy="63" r="5" fill="#F7D79A"/><circle cx="798" cy="63" r="5" fill="#B7E3C6"/>
+      <text class="m" x="942" y="68" text-anchor="middle" font-size="13" fill="#A8A29E">chat-with-your-pdfs</text>
+
+      <g class="q">
+        <rect x="904" y="98" width="218" height="38" rx="14" fill="#F97316"/>
+        <text class="f" x="1013" y="122" text-anchor="middle" font-size="14.5" font-weight="600" fill="#FFFFFF">What's the refund period?</text>
+      </g>
+
+      <g class="typ">
+        <rect x="762" y="150" width="70" height="36" rx="14" fill="#F5F1EB"/>
+        <circle class="dt" cx="782" cy="168" r="4" fill="#A8A29E"/>
+        <circle class="dt dt2" cx="797" cy="168" r="4" fill="#A8A29E"/>
+        <circle class="dt dt3" cx="812" cy="168" r="4" fill="#A8A29E"/>
+      </g>
+
+      <g class="a">
+        <rect x="762" y="150" width="360" height="62" rx="14" fill="#F5F1EB"/>
+        <text class="f" x="780" y="176" font-size="14.5" fill="#292524">Unused items can be returned within 30 days.</text>
+        <text class="m" x="780" y="198" font-size="12" fill="#C2410C">Source: Returns_Policy.pdf, page 4</text>
+      </g>
+
+      <g class="ok">
+        <line x1="762" y1="240" x2="1122" y2="240" stroke="#F1EBE2"/>
+        <circle cx="772" cy="266" r="9" fill="#DCF5E7"/>
+        <path d="M767.5 266 l3 3 l6 -6.5" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <text class="f" x="790" y="271" font-size="13.5" fill="#57534E">Answered from your files, with the page</text>
+      </g>
+    </g>
+  </g>
 </svg>

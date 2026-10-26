@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=FF8A1F&center=true&vCenter=true&width=640&lines=AI+chatbots+that+answer+from+your+documents;Machine+learning+models%2C+tested+properly;Dashboards%2C+data+extraction+and+automation" alt="AI chatbots, machine learning models, dashboards and data extraction"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=C2410C&center=true&vCenter=true&width=640&lines=AI+chatbots+that+answer+from+your+documents;Machine+learning+models%2C+tested+properly;Dashboards%2C+data+extraction+and+automation" alt="AI chatbots, machine learning models, dashboards and data extraction"/>
 </p>
 
 <p align="center">

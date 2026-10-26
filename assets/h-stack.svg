@@ -1,23 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 64" width="1200" height="64" role="img" aria-label="Tech stack">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="1200" height="70" role="img" aria-label="Tech stack">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0B1220"/><stop offset="1" stop-color="#14223B"/></linearGradient>
-    <linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF8A1F"/><stop offset="1" stop-color="#FF8A1F" stop-opacity="0"/></linearGradient>
-    <clipPath id="c"><rect width="1200" height="64" rx="12"/></clipPath>
     <style>
       .f { font-family: 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif; }
-      .m { font-family: 'Cascadia Code', Consolas, Menlo, monospace; }
-      .ln { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.6s ease-out forwards; }
-      @keyframes grow { to { transform: scaleX(1) } }
-      .dot { animation: p 2s ease-in-out infinite; }
-      @keyframes p { 50% { opacity: .25 } }
+      .in { opacity: 0; animation: in .7s ease-out forwards; }
+      @keyframes in { from { opacity: 0; transform: translateX(-12px) } to { opacity: 1; transform: none } }
+      .ln { stroke-dasharray: 920; stroke-dashoffset: 920; animation: draw 1.4s .4s ease-out forwards; }
+      @keyframes draw { to { stroke-dashoffset: 0 } }
+      .run { animation: run 4.5s 1.8s ease-in-out infinite; opacity: 0; }
+      @keyframes run { 0% { transform: translateX(0); opacity: 0 } 10% { opacity: 1 } 90% { opacity: 1 } 100% { transform: translateX(920px); opacity: 0 } }
+      .badge { transform-box: fill-box; transform-origin: center; animation: pop .5s ease-out both; }
+      @keyframes pop { 0% { transform: scale(.4); opacity: 0 } 70% { transform: scale(1.12) } 100% { transform: scale(1); opacity: 1 } }
     </style>
   </defs>
-  <g clip-path="url(#c)">
-    <rect width="1200" height="64" fill="url(#g)"/>
-    <rect width="5" height="64" fill="#FF8A1F"/>
-  </g>
-  <text class="m" x="30" y="40" font-size="15" fill="#FF8A1F" letter-spacing="1">04</text>
-  <text class="f" x="66" y="42" font-size="24" font-weight="700" fill="#FFFFFF">Tech stack</text>
-  <rect class="ln" x="225" y="31" width="915" height="2" fill="url(#l)"/>
-  <circle class="dot" cx="1170" cy="32" r="4" fill="#FF8A1F"/>
+  <rect x=".5" y=".5" width="1199" height="69" rx="14" fill="#FBF8F3" stroke="#EDE5D8"/>
+  <g class="badge"><circle cx="40" cy="35" r="19" fill="#DDEFFC"/></g>
+  <text class="f" x="40" y="41" text-anchor="middle" font-size="15" font-weight="800" fill="#0369A1">04</text>
+  <text class="f in" x="76" y="44" font-size="25" font-weight="800" fill="#1C1917" letter-spacing="-.3">Tech stack</text>
+  <line class="ln" x1="240" y1="35" x2="1160" y2="35" stroke="#0369A1" stroke-opacity=".35" stroke-width="2" stroke-dasharray="920" stroke-linecap="round"/>
+  <circle class="run" cx="240" cy="35" r="4.5" fill="#0369A1"/>
 </svg>
