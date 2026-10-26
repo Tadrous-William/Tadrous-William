@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="1200" height="130" role="img" aria-label="100% Job Success, 5.0 rating, 3rd place nationally, 30 of 30 chatbot test">
+  <defs>
+    <style>
+      .f { font-family: 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: 'Cascadia Code', Consolas, Menlo, monospace; }
+      .c { opacity: 0; animation: in .8s ease-out forwards; }
+      .c2 { animation-delay: .15s } .c3 { animation-delay: .3s } .c4 { animation-delay: .45s }
+      @keyframes in { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+      .bar { transform-box: fill-box; transform-origin: left; transform: scaleX(0); animation: grow 1.4s .5s ease-out forwards; }
+      @keyframes grow { to { transform: scaleX(1) } }
+    </style>
+    <linearGradient id="cb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#121D33"/><stop offset="1" stop-color="#0B1220"/></linearGradient>
+  </defs>
+  <g class="c">
+    <rect x="1" y="1" width="285" height="128" rx="14" fill="url(#cb)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect class="bar" x="24" y="108" width="238" height="3" rx="1.5" fill="#FF8A1F"/>
+    <text class="f" x="24" y="62" font-size="40" font-weight="700" fill="#FFFFFF">100%</text>
+    <text class="m" x="24" y="90" font-size="12.5" fill="#8C9AB3" letter-spacing=".8">JOB SUCCESS ON UPWORK</text>
+  </g>
+  <g transform="translate(304 0)"><g class="c c2">
+    <rect x="1" y="1" width="285" height="128" rx="14" fill="url(#cb)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect class="bar" x="24" y="108" width="238" height="3" rx="1.5" fill="#FF8A1F"/>
+    <text class="f" x="24" y="62" font-size="40" font-weight="700" fill="#FFFFFF">5.0<tspan font-size="22" fill="#FF8A1F" dx="6">/ 5</tspan></text>
+    <text class="m" x="24" y="90" font-size="12.5" fill="#8C9AB3" letter-spacing=".8">ON EVERY RATED CLIENT JOB</text>
+  </g></g>
+  <g transform="translate(608 0)"><g class="c c3">
+    <rect x="1" y="1" width="285" height="128" rx="14" fill="url(#cb)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect class="bar" x="24" y="108" width="238" height="3" rx="1.5" fill="#FF8A1F"/>
+    <text class="f" x="24" y="62" font-size="40" font-weight="700" fill="#FFFFFF">3rd<tspan font-size="22" fill="#FF8A1F" dx="8">place</tspan></text>
+    <text class="m" x="24" y="90" font-size="12.5" fill="#8C9AB3" letter-spacing=".8">NATIONALLY AT DEPI · TEAM LEAD</text>
+  </g></g>
+  <g transform="translate(912 0)"><g class="c c4">
+    <rect x="1" y="1" width="285" height="128" rx="14" fill="url(#cb)" stroke="#FFFFFF" stroke-opacity=".08"/>
+    <rect class="bar" x="24" y="108" width="238" height="3" rx="1.5" fill="#FF8A1F"/>
+    <text class="f" x="24" y="62" font-size="40" font-weight="700" fill="#FFFFFF">30<tspan font-size="22" fill="#FF8A1F" dx="4">/ 30</tspan></text>
+    <text class="m" x="24" y="90" font-size="12.5" fill="#8C9AB3" letter-spacing=".8">RAG CHATBOT TEST SCORE</text>
+  </g></g>
+</svg>

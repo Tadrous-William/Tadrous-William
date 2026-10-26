@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Tadrous William, AI Engineer and Data Scientist">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#14223B"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FF8A1F" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FF8A1F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="1200" height="340" rx="18"/></clipPath>
+    <style>
+      .f { font-family: 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: 'Cascadia Code', Consolas, 'SFMono-Regular', Menlo, monospace; }
+      .up { opacity: 0; animation: up .9s ease-out forwards; }
+      .d1 { animation-delay: .1s } .d2 { animation-delay: .35s } .d3 { animation-delay: .6s } .d4 { animation-delay: .85s }
+      @keyframes up { from { opacity: 0; transform: translateY(14px) } to { opacity: 1; transform: none } }
+      .orb { animation: drift 9s ease-in-out infinite alternate; }
+      .orb2 { animation: drift2 11s ease-in-out infinite alternate; }
+      @keyframes drift { from { transform: translate(0,0) } to { transform: translate(-60px,30px) } }
+      @keyframes drift2 { from { transform: translate(0,0) } to { transform: translate(50px,-25px) } }
+      .node { fill: #FF8A1F; animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .n2 { animation-delay: .4s } .n3 { animation-delay: .8s } .n4 { animation-delay: 1.2s } .n5 { animation-delay: 1.6s } .n6 { animation-delay: 2s }
+      @keyframes pulse { 0%,100% { opacity: .35; transform: scale(.85) } 50% { opacity: 1; transform: scale(1.15) } }
+      .edge { stroke: #FF8A1F; stroke-opacity: .22; stroke-width: 1.4; }
+      .flow { stroke: #FF8A1F; stroke-width: 2.5; stroke-linecap: round; stroke-dasharray: 8 300; animation: flow 3s linear infinite; }
+      .fl2 { animation-delay: 1s } .fl3 { animation-delay: 2s }
+      @keyframes flow { from { stroke-dashoffset: 0 } to { stroke-dashoffset: -308 } }
+      .cur { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <circle class="orb" cx="980" cy="70" r="260" fill="url(#glow)"/>
+    <circle class="orb2" cx="140" cy="330" r="220" fill="url(#glow2)"/>
+
+    <!-- neural network motif -->
+    <g transform="translate(840 70)">
+      <line class="edge" x1="0" y1="20" x2="130" y2="0"/><line class="edge" x1="0" y1="20" x2="130" y2="100"/>
+      <line class="edge" x1="0" y1="110" x2="130" y2="0"/><line class="edge" x1="0" y1="110" x2="130" y2="100"/>
+      <line class="edge" x1="0" y1="110" x2="130" y2="200"/><line class="edge" x1="0" y1="200" x2="130" y2="100"/>
+      <line class="edge" x1="0" y1="200" x2="130" y2="200"/>
+      <line class="edge" x1="130" y1="0" x2="260" y2="60"/><line class="edge" x1="130" y1="100" x2="260" y2="60"/>
+      <line class="edge" x1="130" y1="100" x2="260" y2="150"/><line class="edge" x1="130" y1="200" x2="260" y2="150"/>
+      <line class="flow" x1="0" y1="20" x2="130" y2="100"/>
+      <line class="flow fl2" x1="0" y1="200" x2="130" y2="100"/>
+      <line class="flow fl3" x1="130" y1="100" x2="260" y2="60"/>
+      <circle class="node" cx="0" cy="20" r="7"/><circle class="node n2" cx="0" cy="110" r="7"/><circle class="node n3" cx="0" cy="200" r="7"/>
+      <circle class="node n4" cx="130" cy="0" r="8"/><circle class="node n5" cx="130" cy="100" r="9"/><circle class="node n6" cx="130" cy="200" r="8"/>
+      <circle class="node n2" cx="260" cy="60" r="10"/><circle class="node n4" cx="260" cy="150" r="10"/>
+    </g>
+
+    <g transform="translate(64 0)">
+      <g class="up d1">
+        <rect x="0" y="62" width="262" height="30" rx="15" fill="#FF8A1F" fill-opacity=".12" stroke="#FF8A1F" stroke-opacity=".45"/>
+        <circle cx="18" cy="77" r="4" fill="#22C55E"/>
+        <text class="m" x="32" y="82" font-size="13" fill="#FFB36B" letter-spacing="1.2">OPEN TO FREELANCE WORK</text>
+      </g>
+      <text class="f up d2" x="0" y="158" font-size="58" font-weight="700" fill="#FFFFFF">Tadrous William</text>
+      <text class="f up d3" x="0" y="200" font-size="24" font-weight="600" fill="#FF8A1F">AI Engineer &amp; Data Scientist<tspan class="cur">_</tspan></text>
+      <text class="f up d4" x="0" y="240" font-size="17" fill="#A9B4C7">I build AI chatbots, machine learning models and data pipelines,</text>
+      <text class="f up d4" x="0" y="264" font-size="17" fill="#A9B4C7">and I test them before you get them.</text>
+      <text class="m up d4" x="0" y="304" font-size="13" fill="#6B7A93" letter-spacing="1">RAG CHATBOTS  ·  MACHINE LEARNING  ·  DASHBOARDS  ·  DATA EXTRACTION</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="339" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+</svg>
