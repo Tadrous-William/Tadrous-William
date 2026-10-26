@@ -14,25 +14,25 @@
   <g class="c">
     <rect x="1" y="1" width="285" height="128" rx="14" fill="url(#cb)" stroke="#FFFFFF" stroke-opacity=".08"/>
     <rect class="bar" x="24" y="108" width="238" height="3" rx="1.5" fill="#FF8A1F"/>
-    <text class="f" x="24" y="62" font-size="40" font-weight="700" fill="#FFFFFF">100%</text>
-    <text class="m" x="24" y="90" font-size="12.5" fill="#8C9AB3" letter-spacing=".8">JOB SUCCESS ON UPWORK</text>
+    <text class="f" x="24" y="62" font-size="44" font-weight="700" fill="#FFFFFF">100%</text>
+    <text class="m" x="24" y="90" font-size="14.5" fill="#8C9AB3" letter-spacing=".5">JOB SUCCESS ON UPWORK</text>
   </g>
   <g transform="translate(304 0)"><g class="c c2">
     <rect x="1" y="1" width="285" height="128" rx="14" fill="url(#cb)" stroke="#FFFFFF" stroke-opacity=".08"/>
     <rect class="bar" x="24" y="108" width="238" height="3" rx="1.5" fill="#FF8A1F"/>
-    <text class="f" x="24" y="62" font-size="40" font-weight="700" fill="#FFFFFF">5.0<tspan font-size="22" fill="#FF8A1F" dx="6">/ 5</tspan></text>
-    <text class="m" x="24" y="90" font-size="12.5" fill="#8C9AB3" letter-spacing=".8">ON EVERY RATED CLIENT JOB</text>
+    <text class="f" x="24" y="62" font-size="44" font-weight="700" fill="#FFFFFF">5.0<tspan font-size="22" fill="#FF8A1F" dx="6">/ 5</tspan></text>
+    <text class="m" x="24" y="90" font-size="14.5" fill="#8C9AB3" letter-spacing=".5">EVERY RATED CLIENT JOB</text>
   </g></g>
   <g transform="translate(608 0)"><g class="c c3">
     <rect x="1" y="1" width="285" height="128" rx="14" fill="url(#cb)" stroke="#FFFFFF" stroke-opacity=".08"/>
     <rect class="bar" x="24" y="108" width="238" height="3" rx="1.5" fill="#FF8A1F"/>
-    <text class="f" x="24" y="62" font-size="40" font-weight="700" fill="#FFFFFF">3rd<tspan font-size="22" fill="#FF8A1F" dx="8">place</tspan></text>
-    <text class="m" x="24" y="90" font-size="12.5" fill="#8C9AB3" letter-spacing=".8">NATIONALLY AT DEPI · TEAM LEAD</text>
+    <text class="f" x="24" y="62" font-size="44" font-weight="700" fill="#FFFFFF">3rd<tspan font-size="22" fill="#FF8A1F" dx="8">place</tspan></text>
+    <text class="m" x="24" y="90" font-size="14.5" fill="#8C9AB3" letter-spacing=".5">AT DEPI, AS TEAM LEAD</text>
   </g></g>
   <g transform="translate(912 0)"><g class="c c4">
     <rect x="1" y="1" width="285" height="128" rx="14" fill="url(#cb)" stroke="#FFFFFF" stroke-opacity=".08"/>
     <rect class="bar" x="24" y="108" width="238" height="3" rx="1.5" fill="#FF8A1F"/>
-    <text class="f" x="24" y="62" font-size="40" font-weight="700" fill="#FFFFFF">30<tspan font-size="22" fill="#FF8A1F" dx="4">/ 30</tspan></text>
-    <text class="m" x="24" y="90" font-size="12.5" fill="#8C9AB3" letter-spacing=".8">RAG CHATBOT TEST SCORE</text>
+    <text class="f" x="24" y="62" font-size="44" font-weight="700" fill="#FFFFFF">30<tspan font-size="22" fill="#FF8A1F" dx="4">/ 30</tspan></text>
+    <text class="m" x="24" y="90" font-size="14.5" fill="#8C9AB3" letter-spacing=".5">RAG CHATBOT TEST SCORE</text>
   </g></g>
 </svg>

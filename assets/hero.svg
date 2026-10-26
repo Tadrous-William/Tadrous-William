@@ -62,15 +62,15 @@
 
     <g transform="translate(64 0)">
       <g class="up d1">
-        <rect x="0" y="62" width="262" height="30" rx="15" fill="#FF8A1F" fill-opacity=".12" stroke="#FF8A1F" stroke-opacity=".45"/>
+        <rect x="0" y="62" width="282" height="32" rx="16" fill="#FF8A1F" fill-opacity=".12" stroke="#FF8A1F" stroke-opacity=".45"/>
         <circle cx="18" cy="77" r="4" fill="#22C55E"/>
-        <text class="m" x="32" y="82" font-size="13" fill="#FFB36B" letter-spacing="1.2">OPEN TO FREELANCE WORK</text>
+        <text class="m" x="32" y="83" font-size="14" fill="#FFB36B" letter-spacing="1.2">OPEN TO FREELANCE WORK</text>
       </g>
       <text class="f up d2" x="0" y="158" font-size="58" font-weight="700" fill="#FFFFFF">Tadrous William</text>
       <text class="f up d3" x="0" y="200" font-size="24" font-weight="600" fill="#FF8A1F">AI Engineer &amp; Data Scientist<tspan class="cur">_</tspan></text>
-      <text class="f up d4" x="0" y="240" font-size="17" fill="#A9B4C7">I build AI chatbots, machine learning models and data pipelines,</text>
-      <text class="f up d4" x="0" y="264" font-size="17" fill="#A9B4C7">and I test them before you get them.</text>
-      <text class="m up d4" x="0" y="304" font-size="13" fill="#6B7A93" letter-spacing="1">RAG CHATBOTS  ·  MACHINE LEARNING  ·  DASHBOARDS  ·  DATA EXTRACTION</text>
+      <text class="f up d4" x="0" y="240" font-size="19" fill="#A9B4C7">I build AI chatbots, machine learning models and data pipelines,</text>
+      <text class="f up d4" x="0" y="268" font-size="19" fill="#A9B4C7">and I test them before you get them.</text>
+      <text class="m up d4" x="0" y="306" font-size="15" fill="#7C8BA5" letter-spacing="1">RAG CHATBOTS  ·  MACHINE LEARNING  ·  DASHBOARDS  ·  DATA EXTRACTION</text>
     </g>
   </g>
   <rect x=".5" y=".5" width="1199" height="339" rx="18" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
