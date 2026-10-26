@@ -13,6 +13,8 @@
 <p align="center">
   <a href="https://www.upwork.com/freelancers/~019622575b1d53884b"><img src="https://img.shields.io/badge/Hire%20me%20on%20Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white" alt="Hire me on Upwork"/></a>
   &nbsp;
+  <a href="https://tadrous-william.github.io"><img src="https://img.shields.io/badge/My%20portfolio-F97316?style=for-the-badge&logo=googlechrome&logoColor=white" alt="My portfolio website"/></a>
+  &nbsp;
   <a href="https://github.com/Tadrous-William?tab=repositories"><img src="https://img.shields.io/badge/All%20projects-292524?style=for-the-badge&logo=github&logoColor=white" alt="All projects"/></a>
 </p>
 
