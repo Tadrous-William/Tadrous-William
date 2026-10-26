@@ -20,8 +20,6 @@
 
 <img src="assets/h-about.svg" alt="About me" width="100%"/>
 
-<img align="right" width="340" src="https://raw.githubusercontent.com/Tadrous-William/rag-pdf-chat/main/demo/visuals/card_intro.png" alt="Chat with your PDFs"/>
-
 I'm an **AI Engineer & Data Scientist** from Egypt. I build:
 
 - **AI chatbots (RAG)** that answer from your PDFs, cite the page, and say *"not in the documents"* instead of making things up
@@ -31,7 +29,6 @@ I'm an **AI Engineer & Data Scientist** from Egypt. I build:
 
 CS student at Assiut University &nbsp;·&nbsp; Led my team to **3rd place nationally** at DEPI &nbsp;·&nbsp; Arabic and English
 
-<br clear="right"/>
 <br/>
 
 <img src="assets/h-work.svg" alt="Featured work" width="100%"/>
